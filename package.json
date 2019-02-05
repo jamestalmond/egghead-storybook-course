@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"storybook": "start-storybook -c .storybook",
+		"storybook": "start-storybook -p 9000 -c .storybook",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -19,8 +19,10 @@
 	},
 	"homepage": "https://github.com/jamestalmond/egghead-storybook-course#readme",
 	"devDependencies": {
+		"@storybook/addons": "^4.1.11",
 		"@storybook/react": "^4.1.11",
-		"babel-core": "^6.26.3"
+		"babel-core": "^6.26.3",
+		"storybook-addon-jsx": "^6.0.0"
 	},
 	"dependencies": {
 		"react": "^16.7.0",
