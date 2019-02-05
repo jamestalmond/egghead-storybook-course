@@ -1,0 +1,29 @@
+{
+	"name": "egghead-storybook-course",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"storybook": "start-storybook -p 6006 -c .storybook",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jamestalmond/egghead-storybook-course.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jamestalmond/egghead-storybook-course/issues"
+	},
+	"homepage": "https://github.com/jamestalmond/egghead-storybook-course#readme",
+	"devDependencies": {
+		"@storybook/react": "^4.1.11",
+		"babel-core": "^6.26.3"
+	},
+	"dependencies": {
+		"react": "^16.7.0",
+		"react-dom": "^16.7.0"
+	}
+}
